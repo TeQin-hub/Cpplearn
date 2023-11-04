@@ -1,0 +1,61 @@
+# 忽略临时文件
+.vscode/
+#.DS_Store  # macOS系统的临时文件
+Thumbs.db  # Windows系统的临时文件
+
+# 忽略依赖和构建文件
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json  # 如果使用npm
+yarn.lock  # 如果使用Yarn
+*.log
+*.log*
+*.log.*
+debug.log
+*.swp
+*.swo
+
+# 忽略编辑器配置文件
+.editorconfig
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# 忽略运行时环境文件
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+.env.*.development
+.env.*.test
+.env.*.production
+
+# 忽略自动生成的文件
+build/
+dist/
+out/
+
+# 忽略IDE和编辑器生成的文件
+.idea/
+*.suo
+*.user
+*.suo
+*.sln.docstates
+
+# 忽略压缩包文件
+*.zip
+*.tar.gz
+*.rar
+
+# 忽略日志和临时文件
+*.log
+*.swp
+*.swo
+Thumbs.db
+
+# 忽略本地配置文件
+.local/
+
